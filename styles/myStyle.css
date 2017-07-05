@@ -27,7 +27,7 @@ header {
 
 
 
-/*<úôøéè ðéååè øàùé ðîöà áëì òîåã áàúø>*/
+/*<תפריט ניווט ראשי נמצא בכל עמוד באתר>*/
 
 #nav1 ul {
     font-family: 'myfont';
@@ -114,14 +114,14 @@ color:white;
     margin-right: -50px;
     margin-top: -10px;
 }
-/*<îôú àúø>*/
+/*<מפת אתר>*/
 #map {
     width: 960px;
     height: 30px;
     color: #f6b7cb;
 }
 
-/*<äâãøåú ôåèø>*/
+/*<הגדרות פוטר>*/
 footer {
     font-family: 'myfont';
     display: inline-block;
@@ -131,7 +131,7 @@ footer {
 }
 
 
-/*<äôñ÷ä áúåê ä÷øåñìä>*/
+/*<הפסקה בתוך הקרוסלה>*/
 
 
 section #bootstrp {
@@ -144,7 +144,7 @@ span {
     margin-right: 480px;
 }
 
-/*<èôèéí- òîåã äáéú>*/
+/*<טפטים- עמוד הבית>*/
 #img1 {
     background-image: url(../images/23.jpg);
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@ span {
     float: right;
     background-size: 237px;
 }
-/*<èôèéí - òîåã áéú>*/
+/*<טפטים - עמוד בית>*/
     #img1 p {
         text-align: center;
         margin-top: 215px;
@@ -175,7 +175,7 @@ span {
         font-size:12pt;
     }
 
-    /*<ùéôåõ îãôéí- òîåã áéú>*/
+    /*<שיפוץ מדפים- עמוד בית>*/
 #img2 {
     background-image: url(../images/udig_161007_315.jpg);
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@ span {
         font-size:12pt;
     }
 
-    /*<îñâøåú- òîåã áéú>*/
+    /*<מסגרות- עמוד בית>*/
 #img3 {
     background-image: url(../images/udig_140722_249.jpg);
     background-repeat: no-repeat;
@@ -238,7 +238,7 @@ span {
         font-family: 'myfont';
         font-size:12pt;
     }
-    /*<÷éø îùåìá- òîåã áéú>*/
+    /*<קיר משולב- עמוד בית>*/
 
 #img4 {
     background-image: url(../images/sh.jpg);
@@ -272,7 +272,7 @@ span {
         font-family: 'myfont';
         font-size:12pt;
     }
-    /*<ôéðä ìäåøä- òîåã áéú>*/
+    /*<פינה להורה- עמוד בית>*/
 
 #img5 {
     background-image: url(../images/udig_160614_047.jpg);
@@ -304,7 +304,7 @@ span {
         font-family: 'myfont';
         font-size:12pt;
     }
-    /*<ñãø ááìàâï- òîåã áéú>*/
+    /*<סדר בבלאגן- עמוד בית>*/
 #img6 {
     background-image: url(../images/IMG_0029-701x467.jpg);
     background-repeat: no-repeat;
@@ -334,7 +334,7 @@ span {
         font-family: 'myfont';
         font-size:12pt;
     }
-    /*<îàéôä ìäúçéì- òîåã áéú>*/
+    /*<מאיפה להתחיל- עמוד בית>*/
 
 #img7 {
     background-image: url(../images/udig_150527_217.jpg);
@@ -364,7 +364,7 @@ span {
         font-family: 'myfont';
         font-size:10pt;
     }
-    /*<àéôä ìî÷í- òîåã áéú>*/
+    /*<איפה למקם- עמוד בית>*/
 #img8 {
     background-image: url(../images/udig_150527_129.jpg);
     background-size: 50px;
@@ -395,10 +395,10 @@ span {
         font-size:12pt;
     }
 
-    /*<ùèéç ôòéìåú- òîåã áéú>*/
+    /*<שטיח פעילות- עמוד בית>*/
 
 #img9 {
-    background-image: url(../images/a.PNG);
+    background-image: url(../images/a.png);
     background-repeat: no-repeat;
     height: 192px;
     width: 600px;
@@ -423,7 +423,7 @@ span {
         font-family: 'myfont';
         font-size:12pt;
     }
-    /*<àäéì áöåøåú- òîåã áéú>*/
+    /*<אהיל בצורות- עמוד בית>*/
 #img10 {
     background-image: url(../images/c.jpg);
     background-repeat: no-repeat;
@@ -452,7 +452,7 @@ span {
         font-family: 'myfont';
         font-size:12pt;
     }
-    /*<ëúáåú çîåú- òîåã áéú>*/
+    /*<כתבות חמות- עמוד בית>*/
 
 #img11 {
     background-image: url(../images/bh.PNG);
@@ -483,7 +483,7 @@ span {
         font-size:12pt;
         
     }
-    /*<àøáò òåðåú - òîåã áéú>*/
+    /*<ארבע עונות - עמוד בית>*/
 #img12 {
     background-image: url(../images/b.jpg);
     background-size: 50px;
@@ -514,7 +514,7 @@ span {
         font-size:12pt;
     }
 
-    /*<äâãøåú ÷øåñåìä>*/
+    /*<הגדרות קרוסולה>*/
 .carousel {
    
     background-repeat: repeat-x;
@@ -525,7 +525,7 @@ span {
 .left carousel-control {
     z-index: 1;
 }
-/*<úôøéè ðéååè áúçúéú äòîåã>*/
+/*<תפריט ניווט בתחתית העמוד>*/
 #navFooter #center {
     float: right;
     text-decoration: none;
@@ -537,15 +537,15 @@ span {
     text-decoration: none;
     margin-top: 21px;
 }
-/*<çõ ùæåø÷ ìîèä>*/
+/*<חץ שזורק למטה>*/
 #aroow1 {
     margin-right: 190px;
 }
-/*<èéôéí>*/
+/*<טיפים>*/
 #tips {
     margin-top: 282px;
 }
-/*<èøðãéí>*/
+/*<טרנדים>*/
 
 #trand {
     margin-top: 258px;
@@ -582,7 +582,7 @@ span {
     width: 960px;
 }
 
-/*<úîåðåú áúåê ä÷øåñåìä äøàùéú- òîåã äáéú>*/
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
 #img1carousel {
     background-image: url(../images/glow1.jpeg);
     background-repeat: no-repeat;
@@ -593,7 +593,7 @@ span {
 
 
 
-/*<úîåðåú áúåê ä÷øåñåìä äøàùéú- òîåã äáéú>*/
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
 #img2carousel {
     background-image: url(../images/glow7.jpeg);
     background-repeat: no-repeat;
@@ -601,7 +601,7 @@ span {
     height: 550px;
      position: relative;
 }
-/*<úîåðåú áúåê ä÷øåñåìä äøàùéú- òîåã äáéú>*/
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
 #img3carousel {
     background-image: url(../images/glow3.jpeg);
     background-repeat: no-repeat;
@@ -609,7 +609,7 @@ span {
     height: 550px;
      position: relative;
 }
-/*<úîåðåú áúåê ä÷øåñåìä äøàùéú- òîåã äáéú>*/
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
 #img4carousel {
     background-image: url(../images/glow4.jpeg);
     background-repeat: no-repeat;
@@ -617,14 +617,14 @@ span {
     height: 550px;
      position: relative;
 }
-/*<úîåðåú áúåê ä÷øåñåìä äøàùéú- òîåã äáéú>*/
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
 #img5carousel {
     background-image: url(../images/glow8.jpeg);
     background-repeat: no-repeat;
     height: 550px;
      position: relative;
 }
-/*<è÷ñè çé áúåê äöôú úåëï á÷øåñìä - òîåã äáéú>*/
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
 
 #live1{
     top: 104px;
@@ -639,7 +639,7 @@ span {
       display:block;
 
 }
-/*<è÷ñè çé áúåê äöôú úåëï á÷øåñìä - òîåã äáéú>*/
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
 #live2{
        top: 179px;
     position: absolute;
@@ -650,7 +650,7 @@ span {
        text-decoration:underline;
        z-index:3
 }
-/*<è÷ñè çé áúåê äöôú úåëï á÷øåñìä - òîåã äáéú>*/
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
 #live3{
       top: 422px;
     position: absolute;
@@ -661,7 +661,7 @@ span {
        text-decoration:underline;
        z-index:3
 }
-/*<è÷ñè çé áúåê äöôú úåëï á÷øåñìä - òîåã äáéú>*/
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
 #live4{
   
      top: 375px;
@@ -673,7 +673,7 @@ span {
        text-decoration:underline;
       
 }
-/*<è÷ñè çé áúåê äöôú úåëï á÷øåñìä - òîåã äáéú>*/
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
 #live5{
   top: 402px;
     position: absolute;
@@ -687,7 +687,7 @@ span {
 
 
 
-/*<îùôè áøàù äòîåã áéú>*/
+/*<משפט בראש העמוד בית>*/
 
 #Sentence {
     background-color: rgba(255, 255, 255, 0.56);
@@ -703,7 +703,7 @@ span {
 }
 
 
-/*<!--àåãåú--!>*/
+/*<!--אודות--!>*/
 
 section#about {
     padding-top: 37px;
@@ -717,7 +717,7 @@ section#about {
     border-radius: 2px;
 }
 
-/*<!--÷ùø öåø--!>*/
+/*<!--קשר צור--!>*/
 
 #contact {
     padding-top: 40px;
@@ -738,7 +738,7 @@ form {
     padding-top: 40px;
 }
 
-/*<!--àúø îôú--!>*/
+/*<!--אתר מפת--!>*/
 section {
    
     z-index: 0;
@@ -754,7 +754,7 @@ section {
             padding-top: 64px;
     }
 
-/*<!--äù÷òä--!>*/
+/*<!--השקעה--!>*/
 #nav3 ul {
     padding-top: 41px;
     font-family:Calibri;
@@ -777,7 +777,7 @@ section {
 
 
 
-/*<æîï>*/
+/*<זמן>*/
 
 #shortTime {
       height: 290px;
@@ -800,7 +800,7 @@ button {
     width: 960px;
    padding-right: 670px;
 }
-/*<øîú ÷åùé>*/
+/*<רמת קושי>*/
 #ramatkoshi {
     height: 290px;
     margin-top: -230px;
@@ -811,7 +811,7 @@ button {
 
 
 
-/*<òéöåá æîðé/çì÷é>*/
+/*<עיצוב זמני/חלקי>*/
 
 #nav4 ul {
     padding-top: 41px;
@@ -834,7 +834,7 @@ button {
             font-family:Calibri;
         }
 
-        /*<÷øåñìä æîðé*/
+        /*<קרוסלה זמני*/
 #carousel-example-genericTEMPORARY {
     width: 480px;
     height: 230px;
@@ -866,7 +866,7 @@ button {
       margin-right: 690px
 }
 
-/*<ôúøåðåú àçñåï<>*/
+/*<פתרונות אחסון<>*/
 
 #nav5 ul {
     padding-top: 41px;
@@ -886,40 +886,40 @@ button {
             content: "";
         }
 
-        /*<÷øåñåìä ôúøåðåú àçñåï>*/
+        /*<קרוסולה פתרונות אחסון>*/
 
 #carousel-example-genericSTORAGE {
     width: 480px;
     height: 230px;
     margin-top: -170px;
 }
-/*<ñôøéí>*/
+/*<ספרים>*/
 #books {
     padding-top: 119px;
      margin-right: 690px;
 }
-/*<áâãéí>*/
+/*<בגדים>*/
 #clothes {
     padding-top: 57px;
      margin-right: 690px;
 }
-/*<çåîøé éöéøä>*/
+/*<חומרי יצירה>*/
 #yazira {
     padding-top: 57px;
      margin-right: 690px;
 }
-/*<ëìé ëúéáä>*/
+/*<כלי כתיבה>*/
 #ktiva {
     padding-top: 57px;
   margin-right: 690px;
 }
-/*<öòöåòéí>*/
+/*<צעצועים>*/
 #toyes {
     padding-top: 57px;
      margin-right: 690px;
 }
 
-/*<äâãøú ôñ÷àåú áëì äàúø>*/
+/*<הגדרת פסקאות בכל האתר>*/
 p{
 
  font-family:Calibri;
@@ -927,28 +927,28 @@ p{
  text-align:justify;
 
 }
-/*<äâãøú úåëï áëì äàúø>*/
+/*<הגדרת תוכן בכל האתר>*/
 h3{
     margin-top: 50px;
     padding-top: 52px;
 }
-/*<äâãøåú òéöåá æîðé ôñ÷ä øàùåðä>*/
+/*<הגדרות עיצוב זמני פסקה ראשונה>*/
 #Design1{
        padding-right: 670px;
         padding-top: 12px;
 }
-/*<äâãøåú òéöåá æîðé îìà ôñ÷ú úåëï>*/
+/*<הגדרות עיצוב זמני מלא פסקת תוכן>*/
 #Design{
 margin-top: -80px
 }
-/*<äâãøåú òéöåá îìà ôñ÷ä ùðéä>*/
+/*<הגדרות עיצוב מלא פסקה שניה>*/
 
 #Design2{
        padding-right: 670px;
     padding-top: 60px;
 }
                
-/*<÷øåññìä>*/
+/*<קרוססלה>*/
 
 #myCarousel{
     z-index:1;
@@ -988,7 +988,7 @@ top:-270px
 top:-290px
     }
 
-/*<ãìâ úåëï!!!>*/
+/*<דלג תוכן!!!>*/
 
  .skip {
         position: absolute;
