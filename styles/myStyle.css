@@ -1,0 +1,1011 @@
+@font-face {
+    font-family: 'myfont';
+    src: url('../fonts/ktavyadclm-bolditalic.eot');
+    src: url('../fonts/ktavyadclm-bolditalic.eot?#iefix') format('embedded-opentype'), url('../fonts/ktavyadclm-bolditalic.ttf') format('truetype');
+}
+@font-face {
+font-family:'Calibril';
+src: url('../Fonts/calibril.eot');
+src: url('../Fonts/calibril.eot?#iefix') format('embedded-opentype'), url('../Fonts/calibril.ttf') format('truetype');
+}
+
+
+body {
+    direction: rtl;
+    /*background-color:#eccae7;*/
+}
+
+#container {
+    font-family: 'myfont';
+    width: 960px;
+    margin: auto;
+}
+
+header {
+    position: relative;
+}
+
+
+
+/*<תפריט ניווט ראשי נמצא בכל עמוד באתר>*/
+
+#nav1 ul {
+    font-family: 'myfont';
+    list-style: none;
+    width: 960px;
+    margin: 0 auto;
+    height: 55px;
+    background-color: #2f2f33;
+    font-family: 'myfont';
+    padding-right: 0;
+    z-index: 2;
+    position: fixed;
+}
+
+#nav ul li {
+    list-style: none;
+}
+
+#nav1 ul li {
+    font-family: 'myfont';
+    display: inline-block;
+    float: right;
+}
+
+    #nav1 ul li a {
+        font-family: 'myfont';
+        display: block;
+        background-color: #2f2f33;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 130px;
+        height: 55px;
+        Padding-top: 10px;
+        font-size: 14px;
+        position: static;
+    }
+
+
+
+        #nav1 ul li a:hover {
+            font-family: 'myfont';
+            background-color: #4f4f4f;
+            position: static;
+            color:white;
+        }
+
+        #nav1 ul li a:active {
+            font-family: 'myfont';
+            background-color: White;
+            position: static;
+            color:black;
+        }
+
+
+    #nav1 ul li ul {
+        display: none;
+        position: absolute;
+        width:20px;
+    }
+
+    #nav1 ul li:hover > ul {
+        display: block;
+        width: 130px;
+    }
+
+    #nav1 ul li ul li ul {
+        display: none;
+        position: absolute;
+    }
+
+    #nav1 ul li ul li:hover ul {
+        display: block;
+    margin-right: 130px;
+        margin-top: -55px;
+    }
+
+    #nav1  li ul li ul li a {
+color:white;
+}
+
+
+#img {
+    margin-right: -50px;
+    margin-top: -10px;
+}
+/*<מפת אתר>*/
+#map {
+    width: 960px;
+    height: 30px;
+    color: #f6b7cb;
+}
+
+/*<הגדרות פוטר>*/
+footer {
+    font-family: 'myfont';
+    display: inline-block;
+    width: 960px;
+    background-color: #fddede;
+    height: 45px;
+}
+
+
+/*<הפסקה בתוך הקרוסלה>*/
+
+
+section #bootstrp {
+    text-align: center;
+}
+
+
+
+span {
+    margin-right: 480px;
+}
+
+/*<טפטים- עמוד הבית>*/
+#img1 {
+    background-image: url(../images/23.jpg);
+    background-repeat: no-repeat;
+    height: 267px;
+    margin-right: -336px;
+    margin-top: -15px;
+    width: 600px;
+    float: right;
+    background-position-y: 22px;
+    background-position-x: 26px;
+    float: right;
+    background-size: 237px;
+}
+/*<טפטים - עמוד בית>*/
+    #img1 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 100px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 338px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+
+    /*<שיפוץ מדפים- עמוד בית>*/
+#img2 {
+    background-image: url(../images/udig_161007_315.jpg);
+    background-repeat: no-repeat;
+    height: 177px;
+    margin-right: -376px;
+    margin-top: -12px;
+    width: 600px;
+    float: right;
+    background-position-y: 19px;
+    background-position-x: 10px;
+    background-size: 237px;
+   
+}
+
+
+    #img2 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 100px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 349px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+
+    /*<מסגרות- עמוד בית>*/
+#img3 {
+    background-image: url(../images/udig_140722_249.jpg);
+    background-repeat: no-repeat;
+    height: 233px;
+    margin-right: -355px;
+    margin-top: -15px;
+    width: 600px;
+    float: right;
+    background-position-y: 22px;
+    background-position-x: 16px;
+    background-size: 237px;
+
+   
+}
+
+    #img3 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 100px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 346px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+    /*<קיר משולב- עמוד בית>*/
+
+#img4 {
+    background-image: url(../images/sh.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 287px;
+    margin: -265px;
+    margin-top: -226px;
+    float: left;
+    background-position-y: 15px;
+    background-position-x: 268px;
+    background-size: 237px;
+    
+}
+
+    #img4 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 93px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 428px;
+        color: black;
+        text-decoration: none;
+        float: left;
+        margin-left: 397px;
+        margin-bottom: 103px;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+    /*<פינה להורה- עמוד בית>*/
+
+#img5 {
+    background-image: url(../images/udig_160614_047.jpg);
+    background-repeat: no-repeat;
+    height: 181px;
+    margin-right: -336px;
+    margin-top: -15px;
+    width: 600px;
+    float: right;
+    background-position-y: 23px;
+    background-position-x: 26px;
+    float: right;
+    background-size: 237px;
+  
+}
+
+    #img5 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 114px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 338px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+    /*<סדר בבלאגן- עמוד בית>*/
+#img6 {
+    background-image: url(../images/IMG_0029-701x467.jpg);
+    background-repeat: no-repeat;
+    height: 309px;
+    margin-right: -376px;
+    margin-top: -6px;
+    width: 600px;
+    float: right;
+    background-position-y: 14px;
+    background-position-x: 11px;
+    background-size: 237px;
+   
+}
+
+    #img6 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 102px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 352px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+    /*<מאיפה להתחיל- עמוד בית>*/
+
+#img7 {
+    background-image: url(../images/udig_150527_217.jpg);
+    background-repeat: no-repeat;
+    height: 233px;
+    margin-right: -355px;
+    margin-top: -15px;
+    width: 599px;
+    float: right;
+    background-position-y: 22px;
+    background-position-x: 16px;
+    background-size: 237px;
+}
+
+    #img7 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 110px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 346px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:10pt;
+    }
+    /*<איפה למקם- עמוד בית>*/
+#img8 {
+    background-image: url(../images/udig_150527_129.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 287px;
+    margin: -276px;
+    margin-top: -7px;
+    float: left;
+    background-position-y: 15px;
+    background-position-x: 281px;
+    background-size: 237px;
+    width: 600px;
+}
+
+    #img8 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 100px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 81px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+
+    /*<שטיח פעילות- עמוד בית>*/
+
+#img9 {
+    background-image: url(../images/a.PNG);
+    background-repeat: no-repeat;
+    height: 192px;
+    width: 600px;
+    float: right;
+    background-position-y: 8px;
+    background-position-x: 3px;
+    background-size: 243px;
+}
+
+    #img9 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 116px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 355px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+    /*<אהיל בצורות- עמוד בית>*/
+#img10 {
+    background-image: url(../images/c.JPG);
+    background-repeat: no-repeat;
+    height: 309px;
+    margin-right: -376px;
+    margin-top: -6px;
+    width: 615px;
+    float: right;
+    background-position-y: 13px;
+    background-position-x: 2px;
+    background-size: 237px;
+}
+
+    #img10 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 123px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 375px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+    /*<כתבות חמות- עמוד בית>*/
+
+#img11 {
+    background-image: url(../images/bh.png);
+    background-repeat: no-repeat;
+    height: 289px;
+    margin-right: -355px;
+    margin-top: -291px;
+    width: 599px;
+    float: right;
+    background-position-y: -2px;
+    background-position-x: 10px;
+    background-size: 242px;
+}
+
+    #img11 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 103px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 350px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+        
+    }
+    /*<ארבע עונות - עמוד בית>*/
+#img12 {
+    background-image: url(../images/b.jpg);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    height: 199px;
+    margin: 184px;
+    margin-top: -311px;
+    float: left;
+    background-position-y: 18px;
+    background-position-x: 303px;
+    background-size: 237px;
+    width: 600px;
+}
+
+    #img12 p {
+        text-align: center;
+        margin-top: 215px;
+        background-color: rgba(250, 240, 111, 0.90);
+        width: 109px;
+        height: 31px;
+        margin-top: 124px;
+        text-align: center;
+        border-radius: 8px;
+        margin-right: 60px;
+        color: black;
+        text-decoration: none;
+        font-family: 'myfont';
+        font-size:12pt;
+    }
+
+    /*<הגדרות קרוסולה>*/
+.carousel {
+   
+    background-repeat: repeat-x;
+}
+
+
+
+.left carousel-control {
+    z-index: 1;
+}
+/*<תפריט ניווט בתחתית העמוד>*/
+#navFooter #center {
+    float: right;
+    text-decoration: none;
+    margin-top: 21px;
+}
+
+#navFooter #left {
+    float: left;
+    text-decoration: none;
+    margin-top: 21px;
+}
+/*<חץ שזורק למטה>*/
+#aroow1 {
+    margin-right: 190px;
+}
+/*<טיפים>*/
+#tips {
+    margin-top: 282px;
+}
+/*<טרנדים>*/
+
+#trand {
+    margin-top: 258px;
+    float: right;
+    margin-right: -730px;
+}
+
+#xxx {
+    margin-top: 540px;
+}
+
+#ac {
+    padding-right: -32px;
+    margin: 445px;
+    margin-left: -436px;
+    color: #2f2f33;
+    margin-top: 12px;
+       
+}
+
+#center {
+    color: #2f2f33;
+}
+
+#left {
+    color: #2f2f33;
+}
+
+#aroow1 {
+    margin-right: 413px;
+}
+
+#Controls {
+    width: 960px;
+}
+
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
+#img1carousel {
+    background-image: url(../images/glow1.jpeg);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 550px;
+    position: relative;
+}
+
+
+
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
+#img2carousel {
+    background-image: url(../images/glow7.jpeg);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 550px;
+     position: relative;
+}
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
+#img3carousel {
+    background-image: url(../images/glow3.jpeg);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 550px;
+     position: relative;
+}
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
+#img4carousel {
+    background-image: url(../images/glow4.jpeg);
+    background-repeat: no-repeat;
+    width: 960px;
+    height: 550px;
+     position: relative;
+}
+/*<תמונות בתוך הקרוסולה הראשית- עמוד הבית>*/
+#img5carousel {
+    background-image: url(../images/glow8.jpeg);
+    background-repeat: no-repeat;
+    height: 550px;
+     position: relative;
+}
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
+
+#live1{
+    top: 104px;
+     position: absolute;
+    color: black;
+    font-size: 13pt;
+    right: 171px;
+    text-align:center;
+    z-index:2;
+    text-decoration:underline;
+      z-index:3;
+      display:block;
+
+}
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
+#live2{
+       top: 179px;
+    position: absolute;
+    color: black;
+    font-size: 13pt;
+    right: 627px;
+      text-align:center;
+       text-decoration:underline;
+       z-index:3
+}
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
+#live3{
+      top: 422px;
+    position: absolute;
+    color: black;
+    font-size: 13pt;
+    right: 67px;
+      text-align:center;
+       text-decoration:underline;
+       z-index:3
+}
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
+#live4{
+  
+     top: 375px;
+    position: absolute;
+    color: black;
+    font-size: 13pt;
+    right: 727px;
+      text-align:center;
+       text-decoration:underline;
+      
+}
+/*<טקסט חי בתוך הצפת תוכן בקרוסלה - עמוד הבית>*/
+#live5{
+  top: 402px;
+    position: absolute;
+    color: black;
+    font-size: 13pt;
+    right: 300px;
+      text-align:center;
+       text-decoration:underline;
+     
+}
+
+
+
+/*<משפט בראש העמוד בית>*/
+
+#Sentence {
+    background-color: rgba(255, 255, 255, 0.56);
+    color: #902929;
+    width: 960px;
+    height: 37px;
+    font-family: 'myfont';
+    position: absolute;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 10pt;
+    z-index: 1;
+}
+
+
+/*<!--אודות--!>*/
+
+section#about {
+    padding-top: 37px;
+    z-index: 0;
+}
+
+#title {
+    background-color: #E4ED5D;
+    color: black;
+    font-size: 18pt;
+    border-radius: 2px;
+}
+
+/*<!--קשר צור--!>*/
+
+#contact {
+    padding-top: 40px;
+}
+
+    #contact #title {
+        background-color: #E4ED5D;
+        color: black;
+        font-size: 18pt;
+        border-radius: 2px;
+    }
+
+legend {
+    font-size: 12pt;
+}
+
+form {
+    padding-top: 40px;
+}
+
+/*<!--אתר מפת--!>*/
+section {
+   
+    z-index: 0;
+    text-decoration: none;
+    width: 960px;
+}
+
+#sitemap #title {
+        background-color: #E4ED5D;
+        color: black;
+        font-size: 18pt;
+        border-radius: 2px;
+            padding-top: 64px;
+    }
+
+/*<!--השקעה--!>*/
+#nav3 ul {
+    padding-top: 41px;
+    font-family:Calibri;
+}
+
+    #nav3 ul li {
+        padding-top: 36px;
+        display: inline-block;
+    }
+
+        #nav3 ul li:after {
+            content: ">";
+        }
+
+        #nav3 ul li:last-child:after {
+            content: "";
+        }
+
+
+
+
+
+/*<זמן>*/
+
+#shortTime {
+      height: 290px;
+    margin-top: -240px;
+    width: 960px;
+    padding-right: 670px;
+}
+
+button {
+    background-color: #efdf69;
+    color: #671616;
+    border-radius: 2px;
+    float: left;
+    text-decoration: underline;
+}
+
+#Masa {
+    height: 350px;
+    margin-top: -230px;
+    width: 960px;
+   padding-right: 670px;
+}
+/*<רמת קושי>*/
+#ramatkoshi {
+    height: 290px;
+    margin-top: -230px;
+    width: 960px;
+   padding-right: 670px;
+}
+
+
+
+
+/*<עיצוב זמני/חלקי>*/
+
+#nav4 ul {
+    padding-top: 41px;
+    font-family:Calibri;
+}
+
+    #nav4 ul li {
+        padding-top: 36px;
+        display: inline-block;
+        font-family:Calibri;
+    }
+
+        #nav4 ul li:after {
+            content: ">";
+            font-family:Calibri;
+        }
+
+        #nav4 ul li:last-child:after {
+            content: "";
+            font-family:Calibri;
+        }
+
+        /*<קרוסלה זמני*/
+#carousel-example-genericTEMPORARY {
+    width: 480px;
+    height: 230px;
+    margin-top: -170px;
+}
+
+#vilonot {
+    padding-top: 57px;
+        margin-right: 690px
+}
+
+#tapat {
+    padding-top: 57px;
+      margin-right: 690px
+}
+
+#carit {
+    padding-top: 57px;
+       margin-right: 690px
+}
+
+#tmonotKir {
+    padding-top: 57px;
+     margin-right: 690px
+}
+
+#madafim {
+    padding-top: 57px;
+      margin-right: 690px
+}
+
+/*<פתרונות אחסון<>*/
+
+#nav5 ul {
+    padding-top: 41px;
+    font-family:Calibri;
+}
+
+    #nav5 ul li {
+        padding-top: 36px;
+        display: inline-block;
+    }
+
+        #nav5 ul li:after {
+            content: ">";
+        }
+
+        #nav5 ul li:last-child:after {
+            content: "";
+        }
+
+        /*<קרוסולה פתרונות אחסון>*/
+
+#carousel-example-genericSTORAGE {
+    width: 480px;
+    height: 230px;
+    margin-top: -170px;
+}
+/*<ספרים>*/
+#books {
+    padding-top: 119px;
+     margin-right: 690px;
+}
+/*<בגדים>*/
+#clothes {
+    padding-top: 57px;
+     margin-right: 690px;
+}
+/*<חומרי יצירה>*/
+#yazira {
+    padding-top: 57px;
+     margin-right: 690px;
+}
+/*<כלי כתיבה>*/
+#ktiva {
+    padding-top: 57px;
+  margin-right: 690px;
+}
+/*<צעצועים>*/
+#toyes {
+    padding-top: 57px;
+     margin-right: 690px;
+}
+
+/*<הגדרת פסקאות בכל האתר>*/
+p{
+
+ font-family:Calibri;
+ font-size:14pt;
+ text-align:justify;
+
+}
+/*<הגדרת תוכן בכל האתר>*/
+h3{
+    margin-top: 50px;
+    padding-top: 52px;
+}
+/*<הגדרות עיצוב זמני פסקה ראשונה>*/
+#Design1{
+       padding-right: 670px;
+        padding-top: 12px;
+}
+/*<הגדרות עיצוב זמני מלא פסקת תוכן>*/
+#Design{
+margin-top: -80px
+}
+/*<הגדרות עיצוב מלא פסקה שניה>*/
+
+#Design2{
+       padding-right: 670px;
+    padding-top: 60px;
+}
+               
+/*<קרוססלה>*/
+
+#myCarousel{
+    z-index:1;
+    width:620px;
+    height:350px;
+
+}
+.carousel-indicators{
+    z-index:3;
+}
+
+    
+#myCarouselTemporary.carousel.slide{
+top:-270px
+    }
+
+#myCarouselTemporary{
+     z-index:1;
+    width:620px;
+    height:350px;
+}
+
+#myCarouseldesign{
+    top:-100px;
+     width:620px;
+    height:350px;
+    z-index:1;
+}
+
+#myCarouselStorage{
+     z-index:1;
+    width:620px;
+    height:350px;
+}
+
+#myCarouselStorage.carousel.slide{
+top:-290px
+    }
+
+/*<דלג תוכן!!!>*/
+
+ .skip {
+        position: absolute;
+        top: -1000px;
+        left: -1000px;
+        height: 1px;
+        width: 1px;
+        text-align: left;
+        overflow: hidden;
+    }
+    
+    a.skip:active, 
+    a.skip:focus, 
+    a.skip:hover {
+        left: 0; 
+        top: 0;
+        width: auto; 
+        height: auto; 
+        overflow: visible; 
+    }
